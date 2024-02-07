@@ -1,0 +1,13 @@
+train: data/images/train/images
+val: data/images/valid/images
+test: data/images/test/images
+
+nc: 2
+names: ['Accident', 'cars']
+
+roboflow:
+  workspace: sut-dyfot
+  project: carclashdetection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sut-dyfot/carclashdetection/dataset/1
